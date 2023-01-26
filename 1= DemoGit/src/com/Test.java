@@ -14,6 +14,15 @@ public class Test {
 
 		
 		System.out.println("Check Student Data :- "+ s);
+		
+		
+		Employee e = new Employee();
+		
+		e.setId(22);
+		e.setEname("Sumit");
+		e.setAddress("nigdi");
+		
+		System.out.println("Employee data Set :-"+e);
 	}
 
 }

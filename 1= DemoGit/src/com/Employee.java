@@ -26,6 +26,11 @@ this.id=id;
   public String getAddress(){
     return ename;
   }
+@Override
+public String toString() {
+	return "Employee [id=" + id + ", ename=" + ename + ", address=" + address + "]";
+}
   
 
+  
 }
