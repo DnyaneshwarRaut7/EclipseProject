@@ -1,4 +1,6 @@
-public class Employee{
+ package com;
+ 
+ public class Employee{
 
 private int id;
   
@@ -15,13 +17,13 @@ this.id=id;
   public void setEname(String ename){
   this.ename=ename;
   }
-  public Sting getEname(){
+  public String getEname(){
     return ename;
   }
   public void setAddress(String address){
   this.address=address;
   }
-  public Sting getAddress(){
+  public String getAddress(){
     return ename;
   }
   
