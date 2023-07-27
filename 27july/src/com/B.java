@@ -5,7 +5,7 @@ public class B {
 	public static void main(String[] args) {
 
 		
-		String s = null;
+		String s = "Mauli";
 		
 		System.out.println(s.length());
 
